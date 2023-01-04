@@ -15,7 +15,7 @@ class TestCase extends BaseTestCase
      *
      * @var string
      */
-    protected $baseUrl = 'http://localhost';
+    protected $baseUrl = 'http://laravel-9-simple-cms.test';
 
     /**
      * @var \App\Models\User
@@ -31,8 +31,8 @@ class TestCase extends BaseTestCase
     {
         if (!$user) {
             $user = User::factory()->make([
-                'email' => 'test@user.com',
-                'name' => 'user',
+                'email' => 'admin@admin.com',
+                'name' => 'admin',
                 'password' => bcrypt('123456'),
                 'picture' => null,
             ]);
