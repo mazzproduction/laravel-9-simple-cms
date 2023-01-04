@@ -15,7 +15,7 @@ class TestCase extends BaseTestCase
      *
      * @var string
      */
-    protected $baseUrl = env('APP_URL');
+    protected $baseUrl = 'http://localhost';
 
     /**
      * @var \App\Models\User
