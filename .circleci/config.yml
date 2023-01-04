@@ -10,7 +10,7 @@ jobs:
       - image: cimg/mysql:8.0
         environment:
           MYSQL_ALLOW_EMPTY_PASSWORD: yes
-          MYSQL_USER: root
+          MYSQL_USER: test
           MYSQL_ROOT_PASSWORD: ''
           MYSQL_DATABASE: laravel
 
